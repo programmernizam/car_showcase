@@ -16,7 +16,7 @@ const Footer = () => {
             className="object-contain"
           />
           <p className="text-base text-gray-700 ">
-            Carhub {year}
+            CarHub {year}
             <br />
             All rights reserved MD NIZAM UDDIN.
           </p>
@@ -38,9 +38,9 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p className="text-base text-gray-700 ">
-          &copy; Carhub {year} All rights reserved MD NIZAM UDDIN.
+      <div className="flex md:justify-between justify-center items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
+        <p className="text-gray-500 lg:text-left text-center">
+          &copy; CarHub {year} All rights reserved MD NIZAM UDDIN.
         </p>
         <div className="footer__copyright-link">
           <Link className="text-gray-500" href="/">
